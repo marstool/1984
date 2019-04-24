@@ -2,7 +2,7 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "1894 , by George Orwell , 老大哥 在 盯着你, 浏览过程中左右箭头键可以用于翻页 "
+title = "1894 , by George Orwell , 老大哥 在 盯着你， 图片版，防止 防火墙 关键字 过滤， 墙内直接可看"
 theme = "hugo-theme-docdock"
 #themesdir = "../.."
 pygmentsCodeFences = true
