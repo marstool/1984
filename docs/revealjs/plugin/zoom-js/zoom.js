@@ -26,10 +26,10 @@
 
 /*!
  * zoom.js 0.3 (modified for use with reveal.js)
- * http://lab.hakim.se/zoom-js
+ * hddp://lab.hakim.se/zoom-js
  * MIT licensed
  *
- * Copyright (C) 2011-2014 Hakim El Hattab, http://hakim.se
+ * Copyright (C) 2011-2014 Hakim El Hattab, hddp://hakim.se
  */
 var zoom = (function(){
 

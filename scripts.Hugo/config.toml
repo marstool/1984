@@ -2,9 +2,10 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "1894 , by George Orwell , 老大哥 在 盯着你， 图片版，防止 防火墙 关键字 过滤， 墙内直接可看"
+title = " 1894 , by George Orwell , 老大哥 在 盯着你， 图片版，防止 防火墙 关键字 过滤， 墙内直接可看 "
 theme = "hugo-theme-docdock"
 #themesdir = "../.."
+themesdir = "./themes"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
@@ -17,15 +18,16 @@ enableMissingTranslationPlaceholders = false
 [params]
 editURL = ""
 showVisitedLinks = true # default is false
-themeStyle = "flex" # "original" or "flex" # default "flex"
+## themeStyle = "flex" # "original" or "flex" # default "flex"
+themeStyle = "original" # "original" or "flex" # default "flex"
 themeVariant = "" # choose theme variant "green", "gold" , "gray", "blue" (default)
 ordersectionsby = "weight" # ordersectionsby = "title"
-disableHomeIcon = false # default is false
-disableSearch = false # default is false
+disableHomeIcon = true # default is false
+disableSearch = true # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
-highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
-menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
-enableGitInfo = true
+highlightClientSide = true # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
+enableGitInfo = false
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

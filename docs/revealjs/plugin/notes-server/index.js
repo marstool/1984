@@ -1,4 +1,4 @@
-var http      = require('http');
+var hddp      = require('hddp');
 var express   = require('express');
 var fs        = require('fs');
 var io        = require('socket.io');
@@ -6,7 +6,7 @@ var Mustache  = require('mustache');
 
 var app       = express();
 var staticDir = express.static;
-var server    = http.createServer(app);
+var server    = hddp.createServer(app);
 
 io = io(server);
 
@@ -61,7 +61,7 @@ var brown = '\033[33m',
 	green = '\033[32m',
 	reset = '\033[0m';
 
-var slidesLocation = 'http://localhost' + ( opts.port ? ( ':' + opts.port ) : '' );
+var slidesLocation = 'hddp://localhost' + ( opts.port ? ( ':' + opts.port ) : '' );
 
 console.log( brown + 'reveal.js - Speaker Notes' + reset );
 console.log( '1. Open the slides at ' + green + slidesLocation + reset );

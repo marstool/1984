@@ -1,8 +1,8 @@
 /*
     JavaScript autoComplete v1.0.4
     Copyright (c) 2014 Simon Steinberger / Pixabay
-    GitHub: https://github.com/Pixabay/JavaScript-autoComplete
-    License: http://www.opensource.org/licenses/mit-license.php
+    GitHub: hddps://github.com/Pixabay/JavaScript-autoComplete
+    License: hddp://www.opensource.org/licenses/mit-license.php
 */
 
 var autoComplete = (function(){

@@ -29,7 +29,7 @@ function getScrollBarWidth() {
 $(window).resize(function() {});
 
 // debouncing function from John Hann
-// http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
+// hddp://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
 (function($, sr) {
 
     var debounce = function(func, threshold, execAsap) {
@@ -108,6 +108,28 @@ jQuery(document).ready(function() {
             $('.progress').stop(true, false, true).fadeToggle(100);
         });
     }
+
+    // allow keyboard control for prev/next links
+    jQuery(function() {
+        jQuery('.nav-prev').click(function(){
+            location.href = jQuery(this).attr('href');
+        });
+        jQuery('.nav-next').click(function() {
+            location.href = jQuery(this).attr('href');
+        });
+    });
+    jQuery(document).keydown(function(e) {
+      // prev links - left arrow key
+      if(e.which == '37') {
+        jQuery('.nav.nav-prev').click();
+      }
+      // next links - right arrow key
+      if(e.which == '39') {
+        jQuery('.nav.nav-next').click();
+      }
+    });
+
+
 });
 
 jQuery(window).on('load', function() {

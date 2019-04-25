@@ -2,11 +2,11 @@
  * phantomjs script for printing presentations to PDF.
  *
  * Example:
- * phantomjs print-pdf.js "http://revealjs.com?print-pdf" reveal-demo.pdf
+ * phantomjs print-pdf.js "hddp://revealjs.com?print-pdf" reveal-demo.pdf
  *
- * @author Manuel Bieh (https://github.com/manuelbieh)
- * @author Hakim El Hattab (https://github.com/hakimel)
- * @author Manuel Riezebosch (https://github.com/riezebosch)
+ * @author Manuel Bieh (hddps://github.com/manuelbieh)
+ * @author Hakim El Hattab (hddps://github.com/hakimel)
+ * @author Manuel Riezebosch (hddps://github.com/riezebosch)
  */
 
 // html2pdf.js
@@ -49,7 +49,7 @@ probePage.open( inputFile, function( status ) {
 
 		printPage.onCallback = function(data) {
 			// For some reason we need to "jump the queue" for syntax highlighting to work.
-			// See: http://stackoverflow.com/a/3580132/129269
+			// See: hddp://stackoverflow.com/a/3580132/129269
 			setTimeout(function() {
 				console.log( 'Export PDF: Writing file [4/4]' );
 				printPage.render( outputFile );

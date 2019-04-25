@@ -12,10 +12,10 @@ module.exports = function(grunt) {
 			banner:
 				'/*!\n' +
 				' * reveal.js <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd, HH:MM") %>)\n' +
-				' * http://revealjs.com\n' +
+				' * hddp://revealjs.com\n' +
 				' * MIT licensed\n' +
 				' *\n' +
-				' * Copyright (C) 2017 Hakim El Hattab, http://hakim.se\n' +
+				' * Copyright (C) 2017 Hakim El Hattab, hddp://hakim.se\n' +
 				' */'
 		},
 

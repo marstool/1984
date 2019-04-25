@@ -33,6 +33,6 @@ s : server
 server:
 	hugo server
 
-# https://themes.gohugo.io/
-# https://gohugo.io/themes/
+# hddps://themes.gohugo.io/
+# hddps://gohugo.io/themes/
 

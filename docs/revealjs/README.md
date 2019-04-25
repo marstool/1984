@@ -1,8 +1,8 @@
-# reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js) <a href="https://slides.com?ref=github"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+# reveal.js [![Build Status](hddps://travis-ci.org/hakimel/reveal.js.svg?branch=master)](hddps://travis-ci.org/hakimel/reveal.js) <a href="hddps://slides.com?ref=github"><img src="hddps://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
 
-A framework for easily creating beautiful presentations using HTML. [Check out the live demo](http://revealjs.com/).
+A framework for easily creating beautiful presentations using HTML. [Check out the live demo](hddp://revealjs.com/).
 
-reveal.js comes with a broad range of features including [nested slides](https://github.com/hakimel/reveal.js#markup), [Markdown contents](https://github.com/hakimel/reveal.js#markdown), [PDF export](https://github.com/hakimel/reveal.js#pdf-export), [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](https://github.com/hakimel/reveal.js#api). There's also a fully featured visual editor and platform for sharing reveal.js presentations at [slides.com](https://slides.com?ref=github).
+reveal.js comes with a broad range of features including [nested slides](hddps://github.com/hakimel/reveal.js#markup), [Markdown contents](hddps://github.com/hakimel/reveal.js#markdown), [PDF export](hddps://github.com/hakimel/reveal.js#pdf-export), [speaker notes](hddps://github.com/hakimel/reveal.js#speaker-notes) and a [JavaScript API](hddps://github.com/hakimel/reveal.js#api). There's also a fully featured visual editor and platform for sharing reveal.js presentations at [slides.com](hddps://slides.com?ref=github).
 
 ## Table of contents
 - [Online Editor](#online-editor)
@@ -53,14 +53,14 @@ reveal.js comes with a broad range of features including [nested slides](https:/
 - [License](#license)
 
 #### More reading
-- [Changelog](https://github.com/hakimel/reveal.js/releases): Up-to-date version history.
-- [Examples](https://github.com/hakimel/reveal.js/wiki/Example-Presentations): Presentations created with reveal.js, add your own!
-- [Browser Support](https://github.com/hakimel/reveal.js/wiki/Browser-Support): Explanation of browser support and fallbacks.
-- [Plugins](https://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware): A list of plugins that can be used to extend reveal.js.
+- [Changelog](hddps://github.com/hakimel/reveal.js/releases): Up-to-date version history.
+- [Examples](hddps://github.com/hakimel/reveal.js/wiki/Example-Presentations): Presentations created with reveal.js, add your own!
+- [Browser Support](hddps://github.com/hakimel/reveal.js/wiki/Browser-Support): Explanation of browser support and fallbacks.
+- [Plugins](hddps://github.com/hakimel/reveal.js/wiki/Plugins,-Tools-and-Hardware): A list of plugins that can be used to extend reveal.js.
 
 ## Online Editor
 
-Presentations are written using HTML or Markdown but there's also an online editor for those of you who prefer a graphical interface. Give it a try at [https://slides.com](https://slides.com?ref=github).
+Presentations are written using HTML or Markdown but there's also an online editor for those of you who prefer a graphical interface. Give it a try at [hddps://slides.com](hddps://slides.com?ref=github).
 
 
 ## Instructions
@@ -107,14 +107,14 @@ The presentation markup hierarchy needs to be `.reveal > .slides > section` wher
 
 It's possible to write your slides using Markdown. To enable Markdown, add the `data-markdown` attribute to your `<section>` elements and wrap the contents in a `<textarea data-template>` like the example below. You'll also need to add the `plugin/markdown/marked.js` and `plugin/markdown/markdown.js` scripts (in that order) to your HTML file.
 
-This is based on [data-markdown](https://gist.github.com/1343518) from [Paul Irish](https://github.com/paulirish) modified to use [marked](https://github.com/chjj/marked) to support [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown). Sensitive to indentation (avoid mixing tabs and spaces) and line breaks (avoid consecutive breaks).
+This is based on [data-markdown](hddps://gist.github.com/1343518) from [Paul Irish](hddps://github.com/paulirish) modified to use [marked](hddps://github.com/chjj/marked) to support [GitHub Flavored Markdown](hddps://help.github.com/articles/github-flavored-markdown). Sensitive to indentation (avoid mixing tabs and spaces) and line breaks (avoid consecutive breaks).
 
 ```html
 <section data-markdown>
 	<textarea data-template>
 		## Page title
 
-		A paragraph with some text and a [link](http://hakim.se).
+		A paragraph with some text and a [link](hddp://hakim.se).
 	</textarea>
 </section>
 ```
@@ -162,12 +162,12 @@ Special syntax (in html comment) is available for adding attributes to the slide
 
 #### Configuring *marked*
 
-We use [marked](https://github.com/chjj/marked) to parse Markdown. To customise marked's rendering, you can pass in options when [configuring Reveal](#configuration):
+We use [marked](hddps://github.com/chjj/marked) to parse Markdown. To customise marked's rendering, you can pass in options when [configuring Reveal](#configuration):
 
 ```javascript
 Reveal.initialize({
 	// Options which are passed into marked
-	// See https://github.com/chjj/marked#options-1
+	// See hddps://github.com/chjj/marked#options-1
 	markdown: {
 		smartypants: true
 	}
@@ -281,7 +281,7 @@ Reveal.initialize({
 	viewDistance: 3,
 
 	// Parallax background image
-	parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+	parallaxBackgroundImage: '', // e.g. "'hddps://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
 
 	// Parallax background size
 	parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
@@ -359,7 +359,7 @@ Reveal.js doesn't _rely_ on any third party scripts to work but a few optional l
 ```javascript
 Reveal.initialize({
 	dependencies: [
-		// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+		// Cross-browser shim that fully implements classList - hddps://github.com/eligrey/classList.js/
 		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 
 		// Interpret Markdown in <section> elements
@@ -387,7 +387,7 @@ You can add your own extensions using the same syntax. The following properties 
 - **callback**: [optional] Function to execute when the script has loaded
 - **condition**: [optional] Function which must return true for the script to be loaded
 
-To load these dependencies, reveal.js requires [head.js](http://headjs.com/) *(a script loading library)* to be loaded before reveal.js.
+To load these dependencies, reveal.js requires [head.js](hddp://headjs.com/) *(a script loading library)* to be loaded before reveal.js.
 
 ### Ready Event
 
@@ -458,7 +458,7 @@ To enable lazy loading all you need to do is change your "src" attributes to "da
 ```html
 <section>
   <img data-src="image.png">
-  <iframe data-src="http://hakim.se"></iframe>
+  <iframe data-src="hddp://hakim.se"></iframe>
   <video>
     <source data-src="video.webm" type="video/webm" />
     <source data-src="video.mp4" type="video/mp4" />
@@ -529,7 +529,7 @@ Reveal.isAutoSliding();
 
 A 'slidechanged' event is fired each time the slide is changed (regardless of state). The event object holds the index values of the current slide as well as a reference to the previous and current slide HTML nodes.
 
-Some libraries, like MathJax (see [#226](https://github.com/hakimel/reveal.js/issues/226#issuecomment-10261609)), get confused by the transforms and display states of slides. Often times, this can be fixed by calling their update or render function from this callback.
+Some libraries, like MathJax (see [#226](hddps://github.com/hakimel/reveal.js/issues/226#issuecomment-10261609)), get confused by the transforms and display states of slides. Often times, this can be fixed by calling their update or render function from this callback.
 
 ```javascript
 Reveal.addEventListener( 'slidechanged', function( event ) {
@@ -584,14 +584,14 @@ By default, background images are resized to cover the full page. Available opti
 | Attribute                    | Default    | Description |
 | :--------------------------- | :--------- | :---------- |
 | data-background-image        |            | URL of the image to show. GIFs restart when the slide opens. |
-| data-background-size         | cover      | See [background-size](https://developer.mozilla.org/docs/Web/CSS/background-size) on MDN.  |
-| data-background-position     | center     | See [background-position](https://developer.mozilla.org/docs/Web/CSS/background-position) on MDN. |
-| data-background-repeat       | no-repeat  | See [background-repeat](https://developer.mozilla.org/docs/Web/CSS/background-repeat) on MDN. |
+| data-background-size         | cover      | See [background-size](hddps://developer.mozilla.org/docs/Web/CSS/background-size) on MDN.  |
+| data-background-position     | center     | See [background-position](hddps://developer.mozilla.org/docs/Web/CSS/background-position) on MDN. |
+| data-background-repeat       | no-repeat  | See [background-repeat](hddps://developer.mozilla.org/docs/Web/CSS/background-repeat) on MDN. |
 ```html
-<section data-background-image="http://example.com/image.png">
+<section data-background-image="hddp://example.com/image.png">
 	<h2>Image</h2>
 </section>
-<section data-background-image="http://example.com/image.png" data-background-size="100px" data-background-repeat="repeat">
+<section data-background-image="hddp://example.com/image.png" data-background-size="100px" data-background-repeat="repeat">
 	<h2>This background image will be sized to 100px and repeated</h2>
 </section>
 ```
@@ -607,7 +607,7 @@ Automatically plays a full size video behind the slide.
 | data-background-size         | cover   | Use `cover` for full screen and some cropping or `contain` for letterboxing. |
 
 ```html
-<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-video-loop data-background-video-muted>
+<section data-background-video="hddps://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,hddps://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-video-loop data-background-video-muted>
 	<h2>Video</h2>
 </section>
 ```
@@ -615,7 +615,7 @@ Automatically plays a full size video behind the slide.
 #### Iframe Backgrounds
 Embeds a web page as a slide background that covers 100% of the reveal.js width and height. The iframe is in the background layer, behind your slides, and as such it's not possible to interact with it by default. To make your background interactive, you can add the `data-background-interactive` attribute.
 ```html
-<section data-background-iframe="https://slides.com" data-background-interactive>
+<section data-background-iframe="hddps://slides.com" data-background-interactive>
 	<h2>Iframe</h2>
 </section>
 ```
@@ -632,7 +632,7 @@ If you want to use a parallax scrolling background, set the first two config pro
 Reveal.initialize({
 
 	// Parallax background image
-	parallaxBackgroundImage: '', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+	parallaxBackgroundImage: '', // e.g. "hddps://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
 
 	// Parallax background size
 	parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
@@ -646,7 +646,7 @@ Reveal.initialize({
 });
 ```
 
-Make sure that the background size is much bigger than screen size to allow for some scrolling. [View example](http://revealjs.com/?parallaxBackgroundImage=https%3A%2F%2Fs3.amazonaws.com%2Fhakim-static%2Freveal-js%2Freveal-parallax-1.jpg&parallaxBackgroundSize=2100px%20900px).
+Make sure that the background size is much bigger than screen size to allow for some scrolling. [View example](hddp://revealjs.com/?parallaxBackgroundImage=hddps%3A%2F%2Fs3.amazonaws.com%2Fhakim-static%2Freveal-js%2Freveal-parallax-1.jpg&parallaxBackgroundSize=2100px%20900px).
 
 
 
@@ -706,7 +706,7 @@ You can also add relative navigation links, similar to the built in reveal.js co
 
 
 ### Fragments
-Fragments are used to highlight individual elements on a slide. Every element with the class ```fragment``` will be stepped through before moving on to the next slide. Here's an example: http://revealjs.com/#/fragments
+Fragments are used to highlight individual elements on a slide. Every element with the class ```fragment``` will be stepped through before moving on to the next slide. Here's an example: hddp://revealjs.com/#/fragments
 
 The default fragment style is to start out invisible and fade in. This style can be changed by appending a different class to the fragment:
 
@@ -761,7 +761,7 @@ Reveal.addEventListener( 'fragmenthidden', function( event ) {
 
 ### Code syntax highlighting
 
-By default, Reveal is configured with [highlight.js](https://highlightjs.org/) for code syntax highlighting. Below is an example with clojure code that will be syntax highlighted. When the `data-trim` attribute is present, surrounding whitespace is automatically removed.  HTML will be escaped by default. To avoid this, for example if you are using `<mark>` to call out a line of code, add the `data-noescape` attribute to the `<code>` element.
+By default, Reveal is configured with [highlight.js](hddps://highlightjs.org/) for code syntax highlighting. Below is an example with clojure code that will be syntax highlighted. When the `data-trim` attribute is present, surrounding whitespace is automatically removed.  HTML will be escaped by default. To avoid this, for example if you are using `<mark>` to call out a line of code, add the `data-noescape` attribute to the `<code>` element.
 
 ```html
 <section>
@@ -820,7 +820,7 @@ Just press »F« on your keyboard to show your presentation in fullscreen mode. 
 Add `data-autoplay` to your media element if you want it to automatically start playing when the slide is shown:
 
 ```html
-<video data-autoplay src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+<video data-autoplay src="hddp://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
 ```
 
 If you want to enable or disable autoplay globally, for all embedded media, you can use the `autoPlayMedia` configuration option. If you set this to `true` ALL media will autoplay regardless of individual `data-autoplay` attributes. If you initialize with `autoPlayMedia: false` NO media will autoplay.
@@ -830,7 +830,7 @@ Note that embedded HTML5 `<video>`/`<audio>` and YouTube/Vimeo iframes are autom
 
 ### Embedded iframes
 
-reveal.js automatically pushes two [post messages](https://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage) to embedded iframes. ```slide:start``` when the slide containing the iframe is made visible and ```slide:stop``` when it is hidden.
+reveal.js automatically pushes two [post messages](hddps://developer.mozilla.org/en-US/docs/Web/API/Window.postMessage) to embedded iframes. ```slide:start``` when the slide containing the iframe is made visible and ```slide:stop``` when it is hidden.
 
 
 ### Stretching elements
@@ -839,7 +839,7 @@ Sometimes it's desirable to have an element, like an image or video, stretch to 
 ```html
 <section>
 	<h2>This video will use up the remaining space on the slide</h2>
-    <video class="stretch" src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
+    <video class="stretch" src="hddp://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"></video>
 </section>
 ```
 
@@ -883,14 +883,14 @@ Reveal.initialize({
 
 ## PDF Export
 
-Presentations can be exported to PDF via a special print stylesheet. This feature requires that you use [Google Chrome](http://google.com/chrome) or [Chromium](https://www.chromium.org/Home) and to be serving the presentation from a webserver.
-Here's an example of an exported presentation that's been uploaded to SlideShare: http://www.slideshare.net/hakimel/revealjs-300.
+Presentations can be exported to PDF via a special print stylesheet. This feature requires that you use [Google Chrome](hddp://google.com/chrome) or [Chromium](hddps://www.chromium.org/Home) and to be serving the presentation from a webserver.
+Here's an example of an exported presentation that's been uploaded to SlideShare: hddp://www.slideshare.net/hakimel/revealjs-300.
 
 ### Page size
 Export dimensions are inferred from the configured [presentation size](#presentation-size). Slides that are too tall to fit within a single page will expand onto multiple pages. You can limit how many pages a slide may expand onto using the `pdfMaxPagesPerSlide` config option, for example `Reveal.configure({ pdfMaxPagesPerSlide: 1 })` ensures that no slide ever grows to more than one printed page.
 
 ### Print stylesheet
-To enable the PDF print capability in your presentation, the special print stylesheet at [/css/print/pdf.css](https://github.com/hakimel/reveal.js/blob/master/css/print/pdf.css) must be loaded. The default index.html file handles this for you when `print-pdf` is included in the query string. If you're using a different HTML template, you can add this to your HEAD:
+To enable the PDF print capability in your presentation, the special print stylesheet at [/css/print/pdf.css](hddps://github.com/hakimel/reveal.js/blob/master/css/print/pdf.css) must be loaded. The default index.html file handles this for you when `print-pdf` is included in the query string. If you're using a different HTML template, you can add this to your HEAD:
 
 ```html
 <script>
@@ -903,8 +903,8 @@ To enable the PDF print capability in your presentation, the special print style
 ```
 
 ### Instructions
-1. Open your presentation with `print-pdf` included in the query string i.e. http://localhost:8000/?print-pdf. You can test this with [revealjs.com?print-pdf](http://revealjs.com?print-pdf).
-  * If you want to include [speaker notes](#speaker-notes) in your export, you can append `showNotes=true` to the query string: http://localhost:8000/?print-pdf&showNotes=true
+1. Open your presentation with `print-pdf` included in the query string i.e. hddp://localhost:8000/?print-pdf. You can test this with [revealjs.com?print-pdf](hddp://revealjs.com?print-pdf).
+  * If you want to include [speaker notes](#speaker-notes) in your export, you can append `showNotes=true` to the query string: hddp://localhost:8000/?print-pdf&showNotes=true
 1. Open the in-browser print dialog (CTRL/CMD+P).
 1. Change the **Destination** setting to **Save as PDF**.
 1. Change the **Layout** to **Landscape**.
@@ -912,9 +912,9 @@ To enable the PDF print capability in your presentation, the special print style
 1. Enable the **Background graphics** option.
 1. Click **Save**.
 
-![Chrome Print Settings](https://s3.amazonaws.com/hakim-static/reveal-js/pdf-print-settings-2.png)
+![Chrome Print Settings](hddps://s3.amazonaws.com/hakim-static/reveal-js/pdf-print-settings-2.png)
 
-Alternatively you can use the [decktape](https://github.com/astefanutti/decktape) project.
+Alternatively you can use the [decktape](hddps://github.com/astefanutti/decktape) project.
 
 ## Theming
 
@@ -936,7 +936,7 @@ Each theme is available as a separate stylesheet. To change theme you will need 
 <link rel="stylesheet" href="css/theme/black.css" id="theme">
 ```
 
-If you want to add a theme of your own see the instructions here: [/css/theme/README.md](https://github.com/hakimel/reveal.js/blob/master/css/theme/README.md).
+If you want to add a theme of your own see the instructions here: [/css/theme/README.md](hddps://github.com/hakimel/reveal.js/blob/master/css/theme/README.md).
 
 
 ## Speaker Notes
@@ -979,7 +979,7 @@ This will only display in the notes window.
 
 Notes are only visible to the speaker inside of the speaker view. If you wish to share your notes with others you can initialize reveal.js with the `showNotes` config value set to `true`. Notes will appear along the bottom of the presentations.
 
-When `showNotes` is enabled notes are also included when you [export to PDF](https://github.com/hakimel/reveal.js#pdf-export). By default, notes are printed in a semi-transparent box on top of the slide. If you'd rather print them on a separate page after the slide, set `showNotes: "separate-page"`.
+When `showNotes` is enabled notes are also included when you [export to PDF](hddps://github.com/hakimel/reveal.js#pdf-export). By default, notes are printed in a semi-transparent box on top of the slide. If you'd rather print them on a separate page after the slide, set `showNotes: "separate-page"`.
 
 #### Speaker notes clock and timers
 
@@ -1009,14 +1009,14 @@ Reveal.initialize({
 
 Then:
 
-1. Install [Node.js](http://nodejs.org/) (4.0.0 or later)
+1. Install [Node.js](hddp://nodejs.org/) (4.0.0 or later)
 2. Run ```npm install```
 3. Run ```node plugin/notes-server```
 
 
 ## Multiplexing
 
-The multiplex plugin allows your audience to view the slides of the presentation you are controlling on their own phone, tablet or laptop. As the master presentation navigates the slides, all client presentations will update in real time. See a demo at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/).
+The multiplex plugin allows your audience to view the slides of the presentation you are controlling on their own phone, tablet or laptop. As the master presentation navigates the slides, all client presentations will update in real time. See a demo at [hddps://reveal-js-multiplex-ccjbegmaii.now.sh/](hddps://reveal-js-multiplex-ccjbegmaii.now.sh/).
 
 The multiplex plugin needs the following 3 things to operate:
 
@@ -1034,7 +1034,7 @@ Served from a static file server accessible (preferably) only to the presenter. 
 
 If you want to use the speaker notes plugin with your master presentation then make sure you have the speaker notes plugin configured correctly along with the configuration shown below, then execute ```node plugin/notes-server``` in the directory of your master presentation. The configuration below will cause it to connect to the socket.io server as a master, as well as launch your speaker-notes/static-file server.
 
-You can then access your master presentation at ```http://localhost:1947```
+You can then access your master presentation at ```hddp://localhost:1947```
 
 Example configuration:
 ```javascript
@@ -1045,7 +1045,7 @@ Reveal.initialize({
 		// Example values. To generate your own, see the socket.io server instructions.
 		secret: '13652805320794272084', // Obtained from the socket.io server. Gives this (the master) control of the presentation
 		id: '1ea875674b17ca76', // Obtained from socket.io server
-		url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
+		url: 'hddps://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
 	},
 
 	// Don't forget to add the dependencies
@@ -1062,7 +1062,7 @@ Reveal.initialize({
 ```
 
 #### Client presentation
-Served from a publicly accessible static file server. Examples include: GitHub Pages, Amazon S3, Dreamhost, Akamai, etc. The more reliable, the better. Your audience can then access the client presentation via ```http://example.com/path/to/presentation/client/index.html```, with the configuration below causing them to connect to the socket.io server as clients.
+Served from a publicly accessible static file server. Examples include: GitHub Pages, Amazon S3, Dreamhost, Akamai, etc. The more reliable, the better. Your audience can then access the client presentation via ```hddp://example.com/path/to/presentation/client/index.html```, with the configuration below causing them to connect to the socket.io server as clients.
 
 Example configuration:
 ```javascript
@@ -1073,7 +1073,7 @@ Reveal.initialize({
 		// Example values. To generate your own, see the socket.io server instructions.
 		secret: null, // null so the clients do not have control of the master presentation
 		id: '1ea875674b17ca76', // id, obtained from socket.io server
-		url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
+		url: 'hddps://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
 	},
 
 	// Don't forget to add the dependencies
@@ -1092,17 +1092,17 @@ Server that receives the slideChanged events from the master presentation and br
 1. ```npm install```
 2. ```node plugin/multiplex```
 
-Or you can use the socket.io server at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/).
+Or you can use the socket.io server at [hddps://reveal-js-multiplex-ccjbegmaii.now.sh/](hddps://reveal-js-multiplex-ccjbegmaii.now.sh/).
 
-You'll need to generate a unique secret and token pair for your master and client presentations. To do so, visit ```http://example.com/token```, where ```http://example.com``` is the location of your socket.io server. Or if you're going to use the socket.io server at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/), visit [https://reveal-js-multiplex-ccjbegmaii.now.sh/token](https://reveal-js-multiplex-ccjbegmaii.now.sh/token).
+You'll need to generate a unique secret and token pair for your master and client presentations. To do so, visit ```hddp://example.com/token```, where ```hddp://example.com``` is the location of your socket.io server. Or if you're going to use the socket.io server at [hddps://reveal-js-multiplex-ccjbegmaii.now.sh/](hddps://reveal-js-multiplex-ccjbegmaii.now.sh/), visit [hddps://reveal-js-multiplex-ccjbegmaii.now.sh/token](hddps://reveal-js-multiplex-ccjbegmaii.now.sh/token).
 
-You are very welcome to point your presentations at the Socket.io server running at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/), but availability and stability are not guaranteed.
+You are very welcome to point your presentations at the Socket.io server running at [hddps://reveal-js-multiplex-ccjbegmaii.now.sh/](hddps://reveal-js-multiplex-ccjbegmaii.now.sh/), but availability and stability are not guaranteed.
 
-For anything mission critical I recommend you run your own server. The easiest way to do this is by installing [now](https://zeit.co/now). With that installed, deploying your own Multiplex server is as easy running the following command from the reveal.js folder: `now plugin/multiplex`.
+For anything mission critical I recommend you run your own server. The easiest way to do this is by installing [now](hddps://zeit.co/now). With that installed, deploying your own Multiplex server is as easy running the following command from the reveal.js folder: `now plugin/multiplex`.
 
 ##### socket.io server as file static server
 
-The socket.io server can play the role of static file server for your client presentation, as in the example at [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/). (Open [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/) in two browsers. Navigate through the slides on one, and the other will update to match.)
+The socket.io server can play the role of static file server for your client presentation, as in the example at [hddps://reveal-js-multiplex-ccjbegmaii.now.sh/](hddps://reveal-js-multiplex-ccjbegmaii.now.sh/). (Open [hddps://reveal-js-multiplex-ccjbegmaii.now.sh/](hddps://reveal-js-multiplex-ccjbegmaii.now.sh/) in two browsers. Navigate through the slides on one, and the other will update to match.)
 
 Example configuration:
 ```javascript
@@ -1125,7 +1125,7 @@ Reveal.initialize({
 	]
 ```
 
-It can also play the role of static file server for your master presentation and client presentations at the same time (as long as you don't want to use speaker notes). (Open [https://reveal-js-multiplex-ccjbegmaii.now.sh/](https://reveal-js-multiplex-ccjbegmaii.now.sh/) in two browsers. Navigate through the slides on one, and the other will update to match. Navigate through the slides on the second, and the first will update to match.) This is probably not desirable, because you don't want your audience to mess with your slides while you're presenting. ;)
+It can also play the role of static file server for your master presentation and client presentations at the same time (as long as you don't want to use speaker notes). (Open [hddps://reveal-js-multiplex-ccjbegmaii.now.sh/](hddps://reveal-js-multiplex-ccjbegmaii.now.sh/) in two browsers. Navigate through the slides on one, and the other will update to match. Navigate through the slides on the second, and the first will update to match.) This is probably not desirable, because you don't want your audience to mess with your slides while you're presenting. ;)
 
 Example configuration:
 ```javascript
@@ -1152,9 +1152,9 @@ Reveal.initialize({
 
 ## MathJax
 
-If you want to display math equations in your presentation you can easily do so by including this plugin. The plugin is a very thin wrapper around the [MathJax](http://www.mathjax.org/) library. To use it you'll need to include it as a reveal.js dependency, [find our more about dependencies here](#dependencies).
+If you want to display math equations in your presentation you can easily do so by including this plugin. The plugin is a very thin wrapper around the [MathJax](hddp://www.mathjax.org/) library. To use it you'll need to include it as a reveal.js dependency, [find our more about dependencies here](#dependencies).
 
-The plugin defaults to using [LaTeX](http://en.wikipedia.org/wiki/LaTeX) but that can be adjusted through the ```math``` configuration object. Note that MathJax is loaded from a remote server. If you want to use it offline you'll need to download a copy of the library and adjust the ```mathjax``` configuration value.
+The plugin defaults to using [LaTeX](hddp://en.wikipedia.org/wiki/LaTeX) but that can be adjusted through the ```math``` configuration object. Note that MathJax is loaded from a remote server. If you want to use it offline you'll need to download a copy of the library and adjust the ```mathjax``` configuration value.
 
 Below is an example of how the plugin can be configured. If you don't intend to change these values you do not need to include the ```math``` config object at all.
 
@@ -1164,8 +1164,8 @@ Reveal.initialize({
 	// other options ...
 
 	math: {
-		mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
-		config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+		mathjax: 'hddps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+		config: 'TeX-AMS_HTML-full'  // See hddp://docs.mathjax.org/en/latest/config-files.html
 	},
 
 	dependencies: [
@@ -1175,7 +1175,7 @@ Reveal.initialize({
 });
 ```
 
-Read MathJax's documentation if you need [HTTPS delivery](http://docs.mathjax.org/en/latest/start.html#secure-access-to-the-cdn) or serving of [specific versions](http://docs.mathjax.org/en/latest/configuration.html#loading-mathjax-from-the-cdn) for stability.
+Read MathJax's documentation if you need [HTTPS delivery](hddp://docs.mathjax.org/en/latest/start.html#secure-access-to-the-cdn) or serving of [specific versions](hddp://docs.mathjax.org/en/latest/configuration.html#loading-mathjax-from-the-cdn) for stability.
 
 
 ## Installation
@@ -1186,7 +1186,7 @@ The **basic setup** is for authoring presentations only. The **full setup** give
 
 The core of reveal.js is very easy to install. You'll simply need to download a copy of this repository and open the index.html file directly in your browser.
 
-1. Download the latest version of reveal.js from <https://github.com/hakimel/reveal.js/releases>
+1. Download the latest version of reveal.js from <hddps://github.com/hakimel/reveal.js/releases>
 
 2. Unzip and replace the example contents in index.html with your own
 
@@ -1197,11 +1197,11 @@ The core of reveal.js is very easy to install. You'll simply need to download a 
 
 Some reveal.js features, like external Markdown and speaker notes, require that presentations run from a local web server. The following instructions will set up such a server as well as all of the development tasks needed to make edits to the reveal.js source code.
 
-1. Install [Node.js](http://nodejs.org/) (4.0.0 or later)
+1. Install [Node.js](hddp://nodejs.org/) (4.0.0 or later)
 
 1. Clone the reveal.js repository
    ```sh
-   $ git clone https://github.com/hakimel/reveal.js.git
+   $ git clone hddps://github.com/hakimel/reveal.js.git
    ```
 
 1. Navigate to the reveal.js folder
@@ -1219,7 +1219,7 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
    $ npm start
    ```
 
-1. Open <http://localhost:8000> to view your presentation
+1. Open <hddp://localhost:8000> to view your presentation
 
    You can change the port by using `npm start -- --port=8001`.
 
@@ -1235,4 +1235,4 @@ Some reveal.js features, like external Markdown and speaker notes, require that 
 
 MIT licensed
 
-Copyright (C) 2017 Hakim El Hattab, http://hakim.se
+Copyright (C) 2017 Hakim El Hattab, hddp://hakim.se

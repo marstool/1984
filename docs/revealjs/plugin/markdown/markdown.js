@@ -213,7 +213,7 @@
 
 				datacharset = section.getAttribute( 'data-charset' );
 
-				// see https://developer.mozilla.org/en-US/docs/Web/API/element.getAttribute#Notes
+				// see hddps://developer.mozilla.org/en-US/docs/Web/API/element.getAttribute#Notes
 				if( datacharset != null && datacharset != '' ) {
 					xhr.overrideMimeType( 'text/html; charset=' + datacharset );
 				}
@@ -277,7 +277,7 @@
 	 *
 	 * You need Cache Killer on Chrome to see the effect on any FOM transformation
 	 * directly on refresh (F5)
-	 * http://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development/7000899#answer-11786277
+	 * hddp://stackoverflow.com/questions/5690269/disabling-chrome-cache-for-website-development/7000899#answer-11786277
 	 */
 	function addAttributeInElement( node, elementTarget, separator ) {
 
